@@ -1,14 +1,14 @@
         body {
             font-family: Arial, sans-serif;
             font-size: 16px;
-            margin: 0;
+            margin: 20px auto;
             padding: 0;
             background-color: #1f1f1f;
             color: #fff;
             display: flex;
             flex-direction: column;
             align-items: center;
-            /* justify-content: center;*/
+            /* justify-content: center; */
             min-height: 100vh;
         }
 
@@ -17,7 +17,6 @@
             padding: 15px;
             text-align: center;
             width: 100%;
-            justify-content: center;
         }
 
         nav {
@@ -57,7 +56,7 @@
             border-radius: 10px;
             width: 100%;
             max-width: 900px;
-            text-align: left;
+            text-align: center;
             overflow: hidden;
         }
 
@@ -91,4 +90,41 @@
             width: 100%;
             position: fixed;
             bottom: 0;
+        }
+
+        #featured-genres {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #featured-genres h2 {
+            color: #fff;
+        }
+
+        .genre {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #333;
+            border-radius: 10px;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+        }
+
+        .genre img {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .genre h3,
+        .genre p {
+            text-align: center;
+        }
+
+        section {
+            width: 100%;
+            padding: 20px;
         }
