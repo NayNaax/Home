@@ -10,21 +10,25 @@
             font-size: 20px;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
+            background-color: #1f1f1f;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #0f0f0f;
             padding: 15px;
             text-align: center;
+            width: 100%;
         }
 
         nav {
-            background-color: #444444;
+            background-color: #111;
             padding: 10px;
             text-align: center;
+            width: 100%;
         }
 
         nav a {
@@ -36,33 +40,49 @@
 
         main {
             padding: 20px;
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         section {
             margin-bottom: 20px;
+            width: 100%;
         }
 
         .movie {
             display: flex;
             margin-bottom: 15px;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 10px;
+            width: 100%;
         }
 
         .movie img {
-            width: 150px;
-            height: 225px;
+            width: 225px;
+            height: 300px;
             object-fit: cover;
             margin-right: 15px;
+            border-radius: 5px;
         }
 
         .movie-details {
             flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: #111;
             padding: 10px;
             text-align: center;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
         }
     </style>
 </head>
@@ -86,42 +106,43 @@
             <div class="movie">
                 <img src="6C380087-FB8B-4A36-8E0E-4F05C82EE9D8-900x898.jpg" alt="Movie 1">
                 <div class="movie-details">
+                    <h3>THE HUNGER GAMES: THE BALLAD OF SONGBIRDS AND SNAKES</h3>
+                    <p>THE HUNGER GAMES: THE BALLAD OF SONGBIRDS & SNAKES follows a young Coriolanus (Tom Blyth) who is the last hope for his failing lineage, the once-proud Snow family.</p>
+                    <p>Starring: Peter Dinklage, Viola Davis, Jason Schwartzman, Tom Blyth, Rachel Zegler, Josh Andrés Rivera, Hunter Schafer</p>
+                    <p>Running time: 2hr 37mins</p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+
+            <h2>Featured Movies</h2>
+            <div class="movie">
+                <img src="6C380087-FB8B-4A36-8E0E-4F05C82EE9D8-900x898.jpg" alt="Movie 1">
+                <div class="movie-details">
                     <h3>Movie 1</h3>
                     <p>Description of Movie 1.</p>
                     <a href="#">View Details</a>
                 </div>
             </div>
 
+            <h2>Featured Movies</h2>
             <div class="movie">
-                <img src="index-anime-1674137684.jpg" alt="Movie 2">
+                <img src="6C380087-FB8B-4A36-8E0E-4F05C82EE9D8-900x898.jpg" alt="Movie 1">
                 <div class="movie-details">
-                    <h3>Movie 2</h3>
-                    <p>Description of Movie 2.</p>
+                    <h3>Movie 1</h3>
+                    <p>Description of Movie 1.</p>
                     <a href="#">View Details</a>
                 </div>
             </div>
 
+            <h2>Featured Movies</h2>
             <div class="movie">
-                <img src="802252f4-d7b1-4e50-b184-020fc68efe17_The Hunger Games The Ballad of Songbirds and Snakes_Posters_138.jpg" alt="Movie 2">
+                <img src="6C380087-FB8B-4A36-8E0E-4F05C82EE9D8-900x898.jpg" alt="Movie 1">
                 <div class="movie-details">
-                    <h3>THE HUNGER GAMES: THE BALLAD OF SONGBIRDS AND SNAKES</h3>
-                    <p>THE HUNGER GAMES: THE BALLAD OF SONGBIRDS & SNAKES follows a young Coriolanus (Tom Blyth) who is the last hope for his failing lineage, the once-proud Snow family.</p>
-                    <p>Starring: Peter Dinklage, Viola Davis, Jason Schwartzman, Tom Blyth, Rachel Zegler, Josh Andrés Rivera, Hunter Schafer</p>
-                    <p>Running time: 2hr 37mins</p>                    
+                    <h3>Movie 1</h3>
+                    <p>Description of Movie 1.</p>
                     <a href="#">View Details</a>
                 </div>
             </div>
-
-            <div class="movie">
-                <img src="index-anime-1674137684.jpg" alt="Movie 2">
-                <div class="movie-details">
-                    <h3>Movie 2</h3>
-                    <p>Description of Movie 2.</p>
-                    <a href="#">View Details</a>
-                </div>
-            </div>
-            
-            <!-- Add more movies as needed -->
         </section>
     </main>
 
